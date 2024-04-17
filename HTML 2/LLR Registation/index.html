@@ -14,8 +14,47 @@
         </div><br><br>
         <div>
             <label for="age">age:</label>
-            <input type="number" name="age" placeholder="enter age"
-        </div>
+            <input type="number" name="age" placeholder="enter age">
+        </div><br><br>
+        <div>
+            <label for="DOB">Date of birth:</label>
+            <input type="datetime-local" name="dob" id="DOB">
+        </div><br><br>
+        <div>
+        <label for="em">email:</label>
+            <input type="email" name="email" id="em" >
+        </div><br><br>
+        <p>Select gender:</p>
+            <input type="radio" name="m" id="ma">
+            <label for="ma">Male</label>
+            <input type="radio" name="m" id="fe">
+            <label for="fe">female</label>
+            <br><br>
+        <p>select Types of Vechiles:</p>
+            <input type="checkbox" name="vechile" id="bike"><label for="bike">bike</label> 
+        <input type="checkbox" name="vechile" id="car"><label for="car">car</label>
+        <input type="checkbox" name="vechile" id="Electric scooty"><label for="Elcetric scooty">Eletric scooty</label>
+        <br><br>
+        <select name="Vechiles" id="Vechiles">
+            <optgroup label="bikes">
+                <option value="k">ktm</option>
+                <option value="bullet">Royal Enfield Classic</option>
+                <option value="y">Yamaha R15</option>
+            </optgroup>
+            <optgroup label="cars">
+                <option value="Mg">MG</option>
+                <option value="b">BMW</option>
+                <option value="a">Audi</option>
+            </optgroup>
+            <optgroup label="Electric scooty">
+                <option value="At">Ather 450X</option>
+                <option value="O">OLA S1 Pro</option>
+                <option value="T">TVS X</option>
+            </optgroup>
+        </select><br><br>
+        <button type="submit">
+            submit
+        </button>
     </form>
 </body>
 </html>
