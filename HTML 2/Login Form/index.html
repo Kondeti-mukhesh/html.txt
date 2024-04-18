@@ -8,22 +8,26 @@
 <body>
     <h1>Login Form</h1>
     <form action="main.py">
-     <div>
-        <label for="uname">username:</label>
-        <input type="text" name="uname" id="uname">
-     </div><br><br>
-     <div>
-        <label for="em">email:</label>
-        <input type="email"name="email" id="em">
-     </div><br><br>
-     <div>
-        <label for="age">age:</label>
-        <input type="number"name="age" id="age" placeholder="enter age">
-     </div><br><br>
-     <div>
-        <label for="password">password:</label>
-        <input name="pwd" type="password" placeholder="enter password">
-     </div><br><br>
+      <p>* all fields are required</p>
+     <fieldset>
+      <legend>my form</legend>
+      <div>
+         <label for="uname">username*</label>
+         <input type="text" name="uname" id="uname" required>
+      </div><br><br>
+      <div>
+         <label for="em">email:</label>
+         <input type="email"name="email" id="em" pattern="[A-Za-z0-9+-@]+@[A-Za-z]+\.[a-z]{2,}$">
+      </div><br><br>
+      <div>
+         <label for="password">password:</label>
+         <input name="pwd" type="password">
+      </div><br><br>  
+      <div>
+         <label for="age">age:</label>
+         <input type="number"name="age" id="age">
+      </div><br><br>
+     </fieldset>
         <button type="submit">
             submit
         </button>
