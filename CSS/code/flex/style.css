@@ -1,0 +1,13 @@
+.main{
+    display:flex;
+    width: 200px;
+
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid aqua;
+    background-color: blueviolet;
+    color: black;
+}

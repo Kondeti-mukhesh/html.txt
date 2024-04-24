@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    display: inline-block;
+}

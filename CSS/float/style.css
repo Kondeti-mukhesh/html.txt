@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.img{
+    float: right;
+}
+.banner{
+
+    width: 200px;
+    border: 1px solid aqua;
+    padding: 20px;
+}
+p
+{
+    clear: both;
+}
+.box{
+    width: 50%;
+    height:auto;
+    float:left;
+}
+.box img
+{
+    border-radius: 50%;
+
+}
