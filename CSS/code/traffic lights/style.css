@@ -1,12 +1,11 @@
 body{
-    background-color: aqua;
+    background:radial-gradient(aqua,rgb(101, 101, 122));
 }
 h2{
     text-align: center;
     font-family:  "Jersey 25", sans-serif;
 }
 .main{
-    background-color: antiquewhite;
     height: 400px;
 }
 .light{
