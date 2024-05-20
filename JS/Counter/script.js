@@ -9,7 +9,7 @@ function incr()
 }
 function decr()
 {
-    if (c>0)
+    if(c>0)
     c--;
     cvalue.textContent=c;
 }
