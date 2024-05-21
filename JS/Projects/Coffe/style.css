@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0 10px;
+    color: beige;
+}
+#products
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap:20px;
+}
+.product{
+    box-shadow: 5px 5px rgb(130, 170, 20);
+    padding: 25px;
+    border-radius: 25px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(28, 79, 189, 0.2);
+}
+.product img{
+    height: 300px;
+}
+.product h2 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+}
+
+.product h4 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
+.product p{
+    margin-bottom: 10px;
+}
+
+product.ingredients {
+    color: aqua;
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+}
